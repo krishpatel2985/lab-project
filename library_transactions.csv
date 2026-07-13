@@ -1,0 +1,101 @@
+Transaction id,Date(yyyy-mm-dd),User id,Book title,Genre,Borrowing duration(days)
+T0001,2025-12-14,U1055,To Kill a Mockingbird,Classic,14
+T0002,2025-11-18,U1009,Dune,Science Fiction,10
+T0003,2025-04-09,U1034,The Great Gatsby,Classic,14
+T0004,2025-04-14,U1046,Harry Potter and the Sorcerer's Stone,Fantasy,30
+T0005,2025-01-18,U1086,The Silent Patient,Thriller,7
+T0006,2026-03-13,U1082,Pride and Prejudice,Romance,10
+T0007,2025-05-23,U1079,Pride and Prejudice,Romance,21
+T0008,2026-01-30,U1028,The Hobbit,Fantasy,10
+T0009,2025-06-08,U1080,Sapiens,History,14
+T0010,2026-06-12,U1026,The Hobbit,Fantasy,7
+T0011,2025-12-27,U1090,To Kill a Mockingbird,Classic,14
+T0012,2026-02-08,U1046,Pride and Prejudice,Romance,21
+T0013,2025-04-17,U1052,The Alchemist,Fiction,30
+T0014,2025-02-25,U1002,Harry Potter and the Sorcerer's Stone,Fantasy,7
+T0015,2025-04-04,U1071,Dune,Science Fiction,21
+T0016,2025-10-23,U1013,The Silent Patient,Thriller,7
+T0017,2025-02-09,U1046,The Alchemist,Fiction,10
+T0018,2025-10-14,U1065,Atomic Habits,Self-Help,21
+T0019,2026-04-09,U1014,The Hobbit,Fantasy,21
+T0020,2025-01-28,U1040,To Kill a Mockingbird,Classic,10
+T0021,2025-01-30,U1004,The Great Gatsby,Classic,21
+T0022,2025-04-22,U1098,The Silent Patient,Thriller,21
+T0023,2025-05-04,U1014,The Great Gatsby,Classic,30
+T0024,2025-02-24,U1069,The Hobbit,Fantasy,10
+T0025,2026-01-08,U1055,Pride and Prejudice,Romance,7
+T0026,2025-07-19,U1068,To Kill a Mockingbird,Classic,10
+T0027,2025-02-13,U1012,Atomic Habits,Self-Help,14
+T0028,2026-03-12,U1100,1984,Dystopian,10
+T0029,2026-06-15,U1079,The Hobbit,Fantasy,14
+T0030,2025-10-29,U1047,Harry Potter and the Sorcerer's Stone,Fantasy,30
+T0031,2025-05-31,U1076,The Alchemist,Fiction,30
+T0032,2026-03-13,U1094,Sapiens,History,21
+T0033,2026-04-14,U1064,Atomic Habits,Self-Help,30
+T0034,2026-05-09,U1070,The Alchemist,Fiction,14
+T0035,2025-04-22,U1093,Sapiens,History,7
+T0036,2025-10-02,U1084,To Kill a Mockingbird,Classic,14
+T0037,2025-02-05,U1093,Atomic Habits,Self-Help,14
+T0038,2025-05-14,U1025,Sapiens,History,7
+T0039,2025-07-30,U1056,Dune,Science Fiction,10
+T0040,2026-05-31,U1007,The Hobbit,Fantasy,21
+T0041,2025-02-02,U1003,Clean Code,Technology,30
+T0042,2025-10-05,U1018,Sapiens,History,30
+T0043,2025-09-29,U1025,Atomic Habits,Self-Help,30
+T0044,2025-05-13,U1040,Atomic Habits,Self-Help,30
+T0045,2025-02-02,U1012,Harry Potter and the Sorcerer's Stone,Fantasy,30
+T0046,2026-01-28,U1038,1984,Dystopian,14
+T0047,2025-12-08,U1098,The Alchemist,Fiction,10
+T0048,2026-04-23,U1001,The Great Gatsby,Classic,14
+T0049,2025-05-31,U1010,The Hobbit,Fantasy,30
+T0050,2026-03-13,U1057,Clean Code,Technology,14
+T0051,2026-02-25,U1036,1984,Dystopian,21
+T0052,2025-03-04,U1088,The Hobbit,Fantasy,30
+T0053,2026-06-21,U1036,The Silent Patient,Thriller,10
+T0054,2025-10-12,U1002,Clean Code,Technology,30
+T0055,2026-02-22,U1013,The Alchemist,Fiction,21
+T0056,2026-01-18,U1043,The Great Gatsby,Classic,7
+T0057,2026-06-09,U1069,The Alchemist,Fiction,21
+T0058,2025-10-07,U1035,The Hobbit,Fantasy,7
+T0059,2025-03-01,U1062,To Kill a Mockingbird,Classic,7
+T0060,2025-07-02,U1055,Harry Potter and the Sorcerer's Stone,Fantasy,30
+T0061,2025-07-21,U1016,The Great Gatsby,Classic,7
+T0062,2025-02-24,U1028,Clean Code,Technology,30
+T0063,2026-01-09,U1086,Pride and Prejudice,Romance,21
+T0064,2025-02-01,U1088,Dune,Science Fiction,14
+T0065,2025-05-15,U1017,1984,Dystopian,21
+T0066,2025-10-17,U1044,The Silent Patient,Thriller,30
+T0067,2025-01-25,U1067,Harry Potter and the Sorcerer's Stone,Fantasy,30
+T0068,2026-02-25,U1020,The Great Gatsby,Classic,7
+T0069,2025-08-06,U1025,1984,Dystopian,10
+T0070,2025-03-21,U1039,The Hobbit,Fantasy,30
+T0071,2025-02-13,U1073,The Silent Patient,Thriller,30
+T0072,2026-04-21,U1051,The Great Gatsby,Classic,30
+T0073,2025-08-30,U1041,Pride and Prejudice,Romance,10
+T0074,2025-01-30,U1064,Harry Potter and the Sorcerer's Stone,Fantasy,21
+T0075,2026-03-29,U1050,Pride and Prejudice,Romance,14
+T0076,2025-01-24,U1057,The Great Gatsby,Classic,10
+T0077,2025-04-12,U1087,Atomic Habits,Self-Help,10
+T0078,2026-06-29,U1085,Dune,Science Fiction,30
+T0079,2026-04-22,U1043,Sapiens,History,10
+T0080,2026-04-06,U1005,Dune,Science Fiction,7
+T0081,2026-02-08,U1100,Harry Potter and the Sorcerer's Stone,Fantasy,10
+T0082,2025-10-29,U1027,The Silent Patient,Thriller,10
+T0083,2025-06-27,U1042,1984,Dystopian,7
+T0084,2026-06-04,U1041,Clean Code,Technology,14
+T0085,2025-08-31,U1046,Dune,Science Fiction,10
+T0086,2025-02-25,U1070,Pride and Prejudice,Romance,21
+T0087,2025-07-12,U1007,Dune,Science Fiction,21
+T0088,2025-12-20,U1049,Atomic Habits,Self-Help,30
+T0089,2025-12-29,U1070,1984,Dystopian,7
+T0090,2025-04-22,U1086,The Alchemist,Fiction,30
+T0091,2026-03-15,U1009,Pride and Prejudice,Romance,7
+T0092,2025-11-18,U1027,1984,Dystopian,21
+T0093,2025-02-11,U1059,Atomic Habits,Self-Help,10
+T0094,2026-05-23,U1060,Sapiens,History,14
+T0095,2026-04-09,U1037,Pride and Prejudice,Romance,30
+T0096,2025-11-02,U1071,Pride and Prejudice,Romance,21
+T0097,2025-01-22,U1010,The Alchemist,Fiction,21
+T0098,2025-05-26,U1084,Harry Potter and the Sorcerer's Stone,Fantasy,21
+T0099,2025-06-11,U1075,Pride and Prejudice,Romance,14
+T0100,2025-09-15,U1057,Atomic Habits,Self-Help,10
