@@ -10,8 +10,11 @@ Video Explanation : https://drive.google.com/file/d/1hKEeQ1wCzMTsTrJkVx93Nhko2Su
 
 ## 📂 Project Structure
 
-- **`lp.py`**: The primary Python script containing the `librarydashboard` class, which handles data operations, analysis, and visualizations.
+- **`app.py`**: Modern, interactive Streamlit web application featuring dynamic filters, KPI metric cards, interactive Plotly & Matplotlib charts, reader behavior analysis, and loan return calculators.
+- **`lp.py`**: The primary Python script containing the `librarydashboard` class, handling core data operations, statistics, and Matplotlib/Seaborn visualizations.
 - **`library_transactions.csv`**: The raw transaction dataset containing library records.
+- **`requirements.txt`**: Complete dependency specifications for running locally and deploying to Streamlit Community Cloud.
+- **`.streamlit/config.toml`**: Sleek modern dark mode UI theme configuration.
 
 ---
 
@@ -32,43 +35,42 @@ The input dataset (`library_transactions.csv`) contains records of book borrowin
 
 ## ✨ Features & Functionality
 
-### 1. Data Loading & Cleaning
-- Automatic resolution of dataset filepath relative to the script directory.
-- Robust data type parsing (converting date fields to datetime object and duration fields to numeric).
-- Missing values (`NaN`) detection and cleanup (`dropna()`) to prevent calculation skew.
+### 1. Interactive Streamlit Web Application (`app.py`)
+- **Real-Time Sidebar Filters**: Filter by custom date ranges, genre multi-select, duration sliders, and instant search by book title or member ID.
+- **Executive Metric Cards**: Dynamic indicators for Total Loans, Active Readers, Book Variety, Genre Count, Average Duration, and Busiest Weekday.
+- **Tabbed Analytics**:
+  - **📊 Core Visualizations**: Top 10 borrowed books, genre circulation share (donut), monthly borrowing trends, and month vs weekday activity heatmaps (toggleable between interactive Plotly and classic Matplotlib/Seaborn).
+  - **📚 Catalog & Genre Deep Dive**: Loan duration breakdown by genre, dispersion box plots, and complete book popularity leaderboard.
+  - **👥 Reader & Member Habits**: Most active members leaderboard, loan length histograms, and reader engagement segmentation.
+  - **⏱️ Loan Due Date & Return Calculator**: Dynamic return date scheduler, weekend/busiest-day footfall advisories, and smart book recommendations.
+  - **📋 Transaction Explorer & Export**: Searchable data table, official summary report view, and one-click CSV/TXT export.
 
-### 2. Statistical Analysis
-- **Key Metrics**: Computes total checkout count, unique users, unique books, and unique genres.
-- **Borrowing Durations**: Measures the average, minimum, and maximum borrowing times.
-- **Busiest Day Analysis**: Identifies the day of the week with the highest borrowing frequency.
-- **Grouping Insights**: Groups borrowing durations by genres and users to show average rental times.
-
-### 3. Interactive Data Filtering
-- **By Genre**: Filter the database dynamically for a specific book genre (case-insensitive).
-- **By Date Range**: Select and display transactions that occurred within a custom time frame.
-
-### 4. Rich Data Visualizations
-- **Bar Chart**: Visualizes the top 10 most borrowed books.
-- **Line Graph**: Highlights monthly borrowing trends to reveal seasonality.
-- **Pie Chart**: Illustrates borrowing distribution across various genres.
-- **Heatmap**: Cross-tabulates months against weekdays to highlight the most active borrowing periods.
+### 2. Standalone Python Analytics Engine (`lp.py`)
+- **Key Metrics & Statistics**: Total transactions, unique users, books, genres, mean/min/max duration, and peak borrowing weekday.
+- **Grouped Aggregations (`dac()`)**: Duration counts and means partitioned by genre and user.
+- **Static Visualizations**: Top 10 bar chart, monthly trend line, genre pie chart, and Seaborn correlation heatmap.
 
 ---
 
 ## 🛠️ Installation & Requirements
 
-Ensure you have Python installed, then install the required dependencies:
+Ensure you have Python installed, then install all dependencies using `requirements.txt`:
 
 ```bash
-pip install pandas numpy matplotlib seaborn
+pip install -r requirements.txt
 ```
 
 ---
 
-## 🚀 Running the Script
+## 🚀 Running the Project
 
-To run the analysis and display all statistical summaries and visualization charts, run:
+### Option A: Launch the Interactive Streamlit Web App (Recommended)
+```bash
+streamlit run app.py
+```
+*The app will automatically launch in your default browser at `http://localhost:8501` (or next available port).*
 
+### Option B: Run the Standalone Script
 ```bash
 python lp.py
 ```
